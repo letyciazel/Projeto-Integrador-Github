@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{margin: 0; padding: 0;}
+
+body{}
+
+header,#img-banner{
+  width: 100%;
+  background-color: #B9D8B9;
+}
+
+nav{
+  background-color: #0C9300;
+  text-align: center;
+  padding: 15px;
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25px;
+}
+
+a{ 
+  color: #FFF;
+  text-decoration: none;
+  font: 1.2em 'Poppins';
+}
+
+p{
+	font: 1rem 'Arial';
+	color: #000000;
+	text-align: justify;
+}
+
+#linha-vertical1{
+	padding: 25px;
+	float: left;
+	margin-bottom: 100px;
+	margin-right: 100px;
+    height: 500px;
+    border-right: 2px solid green;
+}
+
+#linha-vertical2{
+	padding: 25px;
+	float: right;
+	margin-bottom: 100px;
+	margin-right: 100px;
+    height: 500px;
+    border-right: 2px solid green;
+}
+
+h1{
+	font: 1.2rem 'Arial';
+	color: #000000;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h2{
+	font: 1.4rem 'Arial';
+	color: #000000;
+	text-align: left;
+	margin-bottom: 60px;
+}
+
+h3{
+	font: 1.2rem 'Roboto';
+	color: #000000;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+h4{
+	font: 1.2rem 'Arial';
+	color: #000000;
+	text-align: center;
+} 
+
+h5{
+	font: 1.4rem 'Arial';
+	color: #000000;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+h6{
+	font: 1.2rem 'Arial';
+	color: #000000;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+.menu{
+   margin-right: 80px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.a-menu:link, .a-menu:visite{
+  color: #FFF;
+}
+
+.menu:hover,.menu:active{
+  color: #ABBEB0;
+}
+
+
+#pag-sobre{
+	background-color: #FFF;
+	padding: 30px;
+	align-items: center;
+	display: flex;
+}
+
+
+.img-card1{
+	justify-content: space-between;
+	margin-bottom: 10px;
+	background-color: #FCFCF6;
+	width: 100%; 
+	border-radius: 10px;
+}
+
+.img-card2{
+  justify-content: space-between;
+  width: 80%;
+  border-radius: 30px;
+  margin-bottom: 30px; 
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+
+.card-a{
+	background-color: #B9D8B9;
+	width: 50%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 0px 0px;
+	color: #FFF;
+	transition: 0.0s;
+	padding: 1%;
+	margin:  0 30%;
+}
+
+.card-a:hover{
+	box-shadow: 0px 0px 0px #8D8D8D;
+}
+
+
+.card-b{
+	background-color: #2F9E41;
+	width: 50%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 0px 0px;
+	color: #FFF;
+	transition: 0.0s;
+	padding: 1%;
+   margin:  0 30%;
+}
+.card-b:hover{
+	box-shadow: 0px 0px 0px #8D8D8D;
+}
+
+.card-1{
+	background-color: #C8DBC8;
+	width: 15%;
+	height: 20%;
+	border-radius: 20px;
+	box-shadow: 0px 0px 0px 0px;
+	color: #C8DBC8;
+	transition: 0.3s;
+	padding: 15px;
+	margin-top: 50px;
+} 
+.card-1:hover{
+	box-shadow: 0px 0px 0px #8D8D8D;
+}
+
+.card-2{
+	background-color: #FFF;
+	width: 8%;
+	border-radius: 20px;
+	box-shadow: 0px 0px 0px 0px;
+	color: #FFF;
+	transition: 0.0s;
+	height: 100%;
+} 
+.card-2:hover{
+	box-shadow: 0px 0px 0px #8D8D8D;
+}
+
+
+.card-3{
+	background-color: #B9D8B9;
+	width: 8%;
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px 0px;
+	color: #ABBEB0;
+	transition: 0.0s;
+}
+.card-3:hover{
+	box-shadow: 0px 0px 0px #8D8D8D;
+}
+
+
+.card-4{
+	background-color: #B9D8B9;
+	width: 8%;
+	border-radius: 20px;
+	box-shadow: 0px 0px 0px 0px;
+	color: #FFF;
+	transition: 0.0s;
+} 
+.card-4:hover{
+	box-shadow: 0px 0px 0px #8D8D8D;
+}
+
+#pag-maislidas{
+	background-color: #FFF;
+	padding: 70px;
+}
+
+#pag-obras{
+	background-color: #B9D8B9;
+	padding: 70px;
+}
+
+#pag-videos{
+	background-color: #FFF;
+	padding: 70px;
+}
+
+#pag-postagens{
+	background-color: #B9D8B9;
+	padding: 70px;  
+}
+
+#pag-login{
+	background-color: #FFF; 
+	padding: 70px;
+	text-align: center;
+}
+
+.coluna-videos{
+  padding: 70px;
+}
+
+
+input[type="submit"]{
+    border: none;
+    border-radius: 30px;
+    background-color: #FA8072;
+    color: #000000;
+    width: 5%;
+    padding: 5px;
+ }
+
+
+footer{
+  padding: 30px;
+  background-image: linear-gradient(#0C9300,#0C9300);
+}
+
+footer p{ 
+  text-align: center;
+  color: #FFF;
+}
+
+footer a{
+  color: #FFF;
+}
+
+footer a:hover{
+  color: #ABBEB0;
+}
+
+
+
